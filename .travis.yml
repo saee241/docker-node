@@ -6,4 +6,4 @@ before_install:
  - docker build -t saee/docker-node -f Dockerfile.dev .
 
 script:
- - docker run saee/docker-node npm run test -- --coverage
+ - docker run saee/docker-node npm run test -- --coverage --
